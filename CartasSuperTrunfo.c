@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// Cartas
+// Estrutura para representar uma carta
 struct Carta {
     char estado;
     char codigo_da_carta[50];
@@ -15,75 +15,75 @@ struct Carta {
 int main() {
     struct Carta carta1, carta2;
 
-    // Cadastro da Carta 1
+    // Entrada da Carta 1
     printf("Cadastro da Carta 1:\n");
-
-    printf("Estado: A \n");
+    printf("Digite o estado (uma letra): ");
     scanf(" %c", &carta1.estado);
 
-    printf("Código da carta: A01 \n");
+    printf("Digite o codigo da carta: ");
     scanf("%s", carta1.codigo_da_carta);
 
-    printf("Nome da cidade: Brasilia \n");
-    scanf("%s", carta1.nome_da_cidade); 
+    printf("Digite o nome da cidade (sem espacos): ");
+    scanf("%s", carta1.nome_da_cidade);
 
-    printf("População: 1223.000 \n");
+    printf("Digite a populacao (numero inteiro): ");
     scanf("%d", &carta1.populacao);
 
-    printf("Área em km²: 1234.00 \n");
+    printf("Digite a area em km² (numero decimal): ");
     scanf("%f", &carta1.area_em_km2);
 
-    printf("PIB: 123.08 bilhões de reais \n");
+    printf("Digite o PIB em bilhoes (numero decimal): ");
     scanf("%f", &carta1.pib);
 
-    printf("Número de pontos turísticos:38 \n");
+    printf("Digite o numero de pontos turisticos (numero inteiro): ");
     scanf("%d", &carta1.pontos_turisticos);
 
-    // Cadastro da Carta 2
+    // Entrada da Carta 2
     printf("\nCadastro da Carta 2:\n");
-
-    printf("Estado: B \n");
+    printf("Digite o estado (uma letra): ");
     scanf(" %c", &carta2.estado);
 
-    printf("Código da carta: A02 \n");
+    printf("Digite o codigo da carta: ");
     scanf("%s", carta2.codigo_da_carta);
 
-    printf("Nome da cidade: Recife \n");
+    printf("Digite o nome da cidade (sem espacos): ");
     scanf("%s", carta2.nome_da_cidade);
 
-    printf("População: 1234.00 \n");
+    printf("Digite a populacao (numero inteiro): ");
     scanf("%d", &carta2.populacao);
 
-    printf("Área em km²: 123.99 \n");
+    printf("Digite a area em km² (numero decimal): ");
     scanf("%f", &carta2.area_em_km2);
 
-    printf("PIB: 788.55 bilhôes de reais \n");
+    printf("Digite o PIB em bilhoes (numero decimal): ");
     scanf("%f", &carta2.pib);
 
-    printf("Número de pontos turísticos: 45 \n");
+    printf("Digite o numero de pontos turisticos (numero inteiro): ");
     scanf("%d", &carta2.pontos_turisticos);
 
     // Exibindo as cartas cadastradas
     printf("\n--- CARTA 1 ---\n");
     printf("Estado: %c\n", carta1.estado);
-    printf("Código: %s\n", carta1.codigo_da_carta);
+    printf("Codigo: %s\n", carta1.codigo_da_carta);
     printf("Cidade: %s\n", carta1.nome_da_cidade);
-    printf("População: %d\n", carta1.populacao);
-    printf("Área: %.2f km²\n", carta1.area_em_km2);
-    printf("PIB: %.2f bilhões\n", carta1.pib);
-    printf("Pontos turísticos: %d\n", carta1.pontos_turisticos);
+    printf("Populacao: %d\n", carta1.populacao);
+    printf("Area: %.2f km²\n", carta1.area_em_km2);
+    printf("PIB: %.2f bilhoes\n", carta1.pib);
+    printf("Pontos turisticos: %d\n", carta1.pontos_turisticos);
 
     printf("\n--- CARTA 2 ---\n");
     printf("Estado: %c\n", carta2.estado);
-    printf("Código: %s\n", carta2.codigo_da_carta);
+    printf("Codigo: %s\n", carta2.codigo_da_carta);
     printf("Cidade: %s\n", carta2.nome_da_cidade);
-    printf("População: %d\n", carta2.populacao);
-    printf("Área: %.2f km²\n", carta2.area_em_km2);
-    printf("PIB: %.2f bilhões\n", carta2.pib);
-    printf("Pontos turísticos: %d\n", carta2.pontos_turisticos);
+    printf("Populacao: %d\n", carta2.populacao);
+    printf("Area: %.2f km²\n", carta2.area_em_km2);
+    printf("PIB: %.2f bilhoes\n", carta2.pib);
+    printf("Pontos turisticos: %d\n", carta2.pontos_turisticos);
 
     return 0;
 }
+
+
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
