@@ -80,6 +80,7 @@ int main() {
     printf("PIB: %.2f bilhoes\n", carta2.pib);
     printf("Pontos turisticos: %d\n", carta2.pontos_turisticos);
 
+    
     return 0;
 }
 
