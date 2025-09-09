@@ -18,49 +18,49 @@ int main() {
     // Cadastro da Carta 1
     printf("Cadastro da Carta 1:\n");
 
-    printf("Estado (ex: A): ");
+    printf("Estado: A \n");
     scanf(" %c", &carta1.estado);
 
-    printf("Código da carta (ex: A01): ");
+    printf("Código da carta: A01 \n");
     scanf("%s", carta1.codigo_da_carta);
 
-    printf("Nome da cidade: ");
-    scanf("%s", carta1.nome_da_cidade);  // cuidado com nomes compostos
+    printf("Nome da cidade: Brasilia \n");
+    scanf("%s", carta1.nome_da_cidade); 
 
-    printf("População: ");
+    printf("População: 1223.000 \n");
     scanf("%d", &carta1.populacao);
 
-    printf("Área em km²: ");
+    printf("Área em km²: 1234.00 \n");
     scanf("%f", &carta1.area_em_km2);
 
-    printf("PIB (em bilhões): ");
+    printf("PIB: 123.08 bilhões de reais \n");
     scanf("%f", &carta1.pib);
 
-    printf("Número de pontos turísticos: ");
+    printf("Número de pontos turísticos:38 \n");
     scanf("%d", &carta1.pontos_turisticos);
 
     // Cadastro da Carta 2
     printf("\nCadastro da Carta 2:\n");
 
-    printf("Estado (ex: B): ");
+    printf("Estado: B \n");
     scanf(" %c", &carta2.estado);
 
-    printf("Código da carta (ex: A02): ");
+    printf("Código da carta: A02 \n");
     scanf("%s", carta2.codigo_da_carta);
 
-    printf("Nome da cidade: ");
+    printf("Nome da cidade: Recife \n");
     scanf("%s", carta2.nome_da_cidade);
 
-    printf("População: ");
+    printf("População: 1234.00 \n");
     scanf("%d", &carta2.populacao);
 
-    printf("Área em km²: ");
+    printf("Área em km²: 123.99 \n");
     scanf("%f", &carta2.area_em_km2);
 
-    printf("PIB (em bilhões): ");
+    printf("PIB: 788.55 bilhôes de reais \n");
     scanf("%f", &carta2.pib);
 
-    printf("Número de pontos turísticos: ");
+    printf("Número de pontos turísticos: 45 \n");
     scanf("%d", &carta2.pontos_turisticos);
 
     // Exibindo as cartas cadastradas
