@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-// Estrutura para representar uma carta
+// Estrutura das Cartas
 struct Carta {
     char estado;
-    char codigo_da_carta[50];
+    char codigo_da_carta[04];
     char nome_da_cidade[50];
     int populacao;
     float area_em_km2;
@@ -17,48 +17,48 @@ int main() {
 
     // Entrada da Carta 1
     printf("Cadastro da Carta 1:\n");
-    printf("Digite o estado (uma letra): ");
+    printf("Digite o estado (Escolha uma letra de A a H): ");
     scanf(" %c", &carta1.estado);
 
-    printf("Digite o codigo da carta: ");
+    printf("Digite o codigo da carta ( A Letra que você escolheu mais dois numeros): ");
     scanf("%s", carta1.codigo_da_carta);
 
-    printf("Digite o nome da cidade (sem espacos): ");
+    printf("Digite o nome da cidade: ");
     scanf("%s", carta1.nome_da_cidade);
 
-    printf("Digite a populacao (numero inteiro): ");
+    printf("Digite a população: ");
     scanf("%d", &carta1.populacao);
 
-    printf("Digite a area em km² (numero decimal): ");
+    printf("Digite a area em km²: ");
     scanf("%f", &carta1.area_em_km2);
 
-    printf("Digite o PIB em bilhoes (numero decimal): ");
+    printf("Digite o PIB: ");
     scanf("%f", &carta1.pib);
 
-    printf("Digite o numero de pontos turisticos (numero inteiro): ");
+    printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &carta1.pontos_turisticos);
 
     // Entrada da Carta 2
     printf("\nCadastro da Carta 2:\n");
-    printf("Digite o estado (uma letra): ");
+    printf("Digite o estado (Escolha uma letra de A a H): ");
     scanf(" %c", &carta2.estado);
 
-    printf("Digite o codigo da carta: ");
+    printf("Digite o codigo da carta( A Letra que você escolheu mais dois numeros): ");
     scanf("%s", carta2.codigo_da_carta);
 
-    printf("Digite o nome da cidade (sem espacos): ");
+    printf("Digite o nome da cidade: ");
     scanf("%s", carta2.nome_da_cidade);
 
-    printf("Digite a populacao (numero inteiro): ");
+    printf("Digite a populacao: ");
     scanf("%d", &carta2.populacao);
 
-    printf("Digite a area em km² (numero decimal): ");
+    printf("Digite a area em km²: ");
     scanf("%f", &carta2.area_em_km2);
 
-    printf("Digite o PIB em bilhoes (numero decimal): ");
+    printf("Digite o PIB: ");
     scanf("%f", &carta2.pib);
 
-    printf("Digite o numero de pontos turisticos (numero inteiro): ");
+    printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &carta2.pontos_turisticos);
 
     // Exibindo as cartas cadastradas
