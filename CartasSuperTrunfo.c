@@ -4,7 +4,7 @@
 // Estrutura das Cartas
 struct Carta {
     char estado;
-    char codigo_da_carta[04];
+    char codigo_da_carta[4];
     char nome_da_cidade[50];
     int populacao;
     float area_em_km2;
