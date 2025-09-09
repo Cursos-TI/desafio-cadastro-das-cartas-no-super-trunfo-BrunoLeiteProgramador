@@ -32,6 +32,28 @@ scanf("f", &pib);
 printf("Números de Pontos Turísticos: 38 \n");
 scanf("d", &numeros_de_pontos_turisticos);
 
+// Cadastro da Carta 2
+Printf("Carta 2: Brasil \n");
+printf("Estado: B \n");
+scanf("%c", &Estado);
+
+printf("A02: \n");
+scanf("%s", &codigo_da_carta);
+
+printf("Nome da cidade: Recife \n");
+scanf("%s",&nome_da_cidade);
+
+printf("População: 222000 \n");
+scanf("f", &população);
+
+printf("Área: 175.55 KM² \n");
+scanf("f", &area_em_km²);
+
+printf("PIB: 355.88 bilhões de reais \n");
+scanf("f", &pib);
+
+printf("Números de Pontos Turísticos: 45 \n");
+scanf("d", &numeros_de_pontos_turisticos);
 }
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
